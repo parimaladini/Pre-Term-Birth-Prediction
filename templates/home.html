@@ -1,0 +1,23 @@
+
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>Preterm Birth Prediction</title>
+ 
+  <body>
+    <h1>Preterm Birth Prediction</h1>
+    <form method="POST" action="/predict">
+      <label>Enter Contraction Count:</label>
+      <input type="text" name="count_contraction" required><br>
+      <label>Enter Length of Contraction:</label>
+      <input type="text" name="length_contraction" required><br>
+      <label>Enter STD:</label>
+      <input type="text" name="std" required><br>
+      <label>Enter Entropy:</label>
+      <input type="text" name="entropy" required><br>
+      <label>Enter Contradiction Times:</label>
+      <input type="text" name="contradiction_times" required><br>
+      <input type="submit" value="Predict">
+    </form>
+  </body>
+</html>

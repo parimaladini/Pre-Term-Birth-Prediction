@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="stylesheet.css">
+
+<!doctype html>
+<html>
+  <head>
+    <title>Prediction Result</title>
+  </head>
+  <body>
+    <h1>Prediction Result</h1>
+    {% if prediction[0] == 0 %}
+      <p>There Is a chance of Preterm Baby so</p>
+      <p>Take care</p>
+      <p>Maintain healthy diet</p>
+      <p>Don't Take drinks and alcohol</p>
+      <p>Consult Your Doctor Frequently</p>
+    
+    {% else %}
+      <p>The baby is likely to be born preterm.</p>
+      <p>Take care</p>
+      <p>Consult Your Doctor Frequently</p>
+
+    {% endif %}
+  </body>
+</html>
